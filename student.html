@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>CMS</title>
+<link rel="stylesheet" type="text/css" href="css1/style.css">
+</head>
+<body>
+<div class="topnav">
+<ul>
+<a href="">Class Management System</a>
+<div class="topnav-right">
+<a href="home.html">Admin Home</a>
+<a href="contactus.php">Contact Us</a>
+<a href="admin.html">Logout</a>
+</div>
+</ul>
+</div>
+<img src="img/back1.jpg" alt="unavailable" class="img1">
+<ul class="sidenav">
+  <h3><center>DASHBOARD</center></h3>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="teacher.html">Add Staff</a></li>
+  <li><a href="student.html">Add Student</a></li>
+  <li><a href="schedule.html">Schedule Class</a></li>
+  <li><a href="reschedule.html">Reschedule Class</a></li>
+  <li><a href="staffsearch.html">Staff Details</a></li>
+  <li><a href="deletetech.html">Delete Staff</a></li>
+  <li><a href="studsearch.html">Student Details</a></li>
+  <li><a href="deletestud.html">Delete Student</a></li>
+  <li><a href="timetab.php">Timetable</a></li>
+</ul>
+<center><h1>ADD STUDENT DETAILS</h1></center>
+</br></br>
+<form action="addstu.php" method="POST">
+<center>Enter Student Name:<input type="text" name="nme" placeholder="Enter Name" required></input></center><br><br/>
+<center>Enter Student Qualification:<input type="text" name="qual" placeholder="Enter Qualification" required></input></center><br><br/>
+<center>Enter Fees: <input type="number" name="fee" placeholder="Enter Fees" required></input></center></br></br>
+<center>Enter Phone Number: <input type="number" name="phno" placeholder="Enter Phno" required></input></center></br></br>
+<center><input type="submit" name="btn" value="Add Student" class="button1"/></center>
+<br/><br/>
+<div id="fixedfooter">Nexus Edutech</div>
+</body>
+</html>

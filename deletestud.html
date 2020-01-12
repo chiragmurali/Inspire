@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+input[type=text] {
+    width: 20%;
+    border: 2px solid #8B4513;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('img/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+</style>
+<title>CMS</title>
+<link rel="stylesheet" type="text/css" href="css1/style.css">
+</head>
+<body>
+<div class="topnav">
+<ul>
+<a href="">Class Management System</a>
+<div class="topnav-right">
+<a href="home.html">Admin Home</a>
+<a href="contactus.php">Contact Us</a>
+<a href="admin.html">Logout</a>
+</div>
+</ul>
+</div>
+<img src="img/back1.jpg" alt="unavailable" class="img1">
+<ul class="sidenav">
+  <h3><center>DASHBOARD</center></h3>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="teacher.html">Add Staff</a></li>
+  <li><a href="student.html">Add Student</a></li>
+  <li><a href="schedule.html">Schedule Class</a></li>
+  <li><a href="reschedule.html">Reschedule Class</a></li>
+  <li><a href="staffsearch.html">Staff Details</a></li>
+  <li><a href="deletetech.html">Delete Staff</a></li>
+  <li><a href="studsearch.html">Student Details</a></li>
+  <li><a href="deletestud.html">Delete Student</a></li>
+  <li><a href="timetab.php">Timetable</a></li>
+</ul>
+<h1><center><b>ENTER NAME OF STUDENT TO BE DELETED</b><center></h1>
+</br></br>
+<form action="deletestud.php" method="POST">
+  <center><input type="text" name="search" placeholder="Search.."></center></br></br>
+  <center><input type="submit" name="btn" value="Delete" class="button1"/></center></br></br>
+</form>
+<div id="fixedfooter">Nexus Edutech</div>
+</body>
+</html>
