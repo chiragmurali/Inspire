@@ -1,1 +1,1 @@
-# Inspire
+A simple class management system project done using the XAMPP server using HTML, CSS and PHP.

@@ -1,0 +1,116 @@
+body {
+	background-color: #CCC;
+	margin:80px 80px 100px 100px;
+}
+#fixedheader {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#f1f1f1;
+	background:#333;
+	padding:20px;
+}
+#fixedfooter {
+  background-color: #333;
+  overflow: hidden;
+  width:100%;
+  top: 0px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.img1 {
+  width:100%;
+  height:50%;
+  margin-top:30px;
+}
+.divt {
+  margin-left:30%;
+  padding:1px 16px;
+  height:0px;
+  text-align:justify;
+  padding:15px;
+  line-height:34px;
+  color:black;
+}
+.sidenav {
+ height:auto;
+ width:25%;
+ list-style-type:none;
+ background-color: #111;
+ overflow:auto;
+ margin-top:30px;
+ margin-right:30px;
+ float:left;
+ margin-bottom:30px;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav h3 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+	width:100%;
+	top=0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav p{
+  float: left;
+  color: #f2f2f2;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav-right {
+  float: right;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid brown;
+	padding:15px 30px;
+	text-decoration:none;
+}
+
+.button1:hover {
+    background-color: brown;
+    color: white;
+	text-decoration:none;
+}
+.text {
+    padding:15px;
+}
